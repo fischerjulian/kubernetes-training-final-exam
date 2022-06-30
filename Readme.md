@@ -2,7 +2,7 @@
 
 The idea of the exam is to confront you with a real-world scenario and challenge your Kubernetes knowledge. However, the idea of the training is to provide you with essential Kubernetes basics; enough to enable you on your personal learning path beyond the tutorial. Therefore, you need to research Kubernetes related topics beyond the training material to complete the exam, perfectly.
 
-The exam is passed if the anonymization system works and essential Kubernetes best practices are used. Using a `Deployment` where a `StatefulSet` should be used is a violation of a best practice, for example.#
+The exam is passed if the anonymization system works and essential Kubernetes best practices are used. Using a `Deployment` where a `StatefulSet` should be used is a violation of a best practice, for example.
 
 ## Context
 
@@ -66,6 +66,10 @@ Use Kubernetes to set up the distributed anyonmization system.
 You are free to use any Kubernetes cluster at your disposal. 
 
 **Hint:** Minikube [1] is a well known technology for local development.
+
+When describing pods (directly or indirectly) use advanced pod configurations including **readiness, liveness and startup probes** where meaningful.
+
+Also describe container resources using `requests` and `limit`.
 
 ### Message Queue
 Setup a message queue using **RabbitMQ**.
@@ -131,6 +135,7 @@ Here is an examplary outline of an exam:
 * Explain what you have done to run the system in Kubernetes.
   * Explain challenges, learnings and solutions.
   * For each component of the system explain your decision which Kubernetes resource has been used to run it.
+    * When using readiness, liveness and startup probes explain your probing strategy.
 * In case you have processed TODO in the source code of components
   * explain your changes and why you consider them to be improvements.
   * explain how you build the corresponding container images and what you had to do in order to use them.
