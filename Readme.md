@@ -96,7 +96,7 @@ Set up workers that will listen to the message queue and process incoming images
 
 Set up a minio object store and use it to store
   * incoming images (`input` bucket)
-  * convertes images (`output` bucket)
+  * converted images (`output` bucket)
 
 ### Extra: Logging with Fluentd and OpenSearch
 
