@@ -10,7 +10,7 @@ A timelapse camera produces a stream of images. The number of timelapse cameras 
 
 For each timelapse project, a timelapse video is produced, eventually.
 
-The challenge is that each images captured by a camera may depict people and in particular their faces. In order protect their privacy, identities must be obfuscated. This is achieved by detecting faces and applying a blur filter to the corresponding region in the image.
+The challenge is that each images captured by a camera may depict people and in particular their faces. In order to protect their privacy, identities must be obfuscated. This is achieved by detecting faces and applying a blur filter to the corresponding region in the image.
 
 ## Given
 
