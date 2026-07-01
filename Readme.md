@@ -6,9 +6,9 @@ The exam is passed if the anonymization system works and essential Kubernetes be
 
 ## Context
 
-A timelapse camera produces a stream of images. There number of timelapse cameras varies as timelapse projects have a limited lifetime. In gernal the business is growing, so more and more cameras are operated, simultaneously. This leads to a growing stream of incoming images.
+A timelapse camera produces a stream of images. The number of timelapse cameras varies as timelapse projects have a limited lifetime. In gernal the business is growing, so more and more cameras are operated, simultaneously. This leads to a growing stream of incoming images.
 
-For each timelapse project, eventually a timelapse video is produced, eventually.
+For each timelapse project, a timelapse video is produced, eventually.
 
 The challenge is that each images captured by a camera may depict people and in particular their faces. In order protect their privacy, identities must be obfuscated. This is achieved by detecting faces and applying a blur filter to the corresponding region in the image.
 
